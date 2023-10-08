@@ -24,5 +24,5 @@ The image will be output to the same dir.
 # Note
 The module samples color from a 5x5 block on the upper left corner as the background color. To change the tolerance of the color sampleing (default 40), try
 ```bash
-./rmbg -i <path> -t < new tolerance value>
+./rmbg -i <path> -t <new tolerance value>
 ```

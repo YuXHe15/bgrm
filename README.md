@@ -1,4 +1,4 @@
-# bgrm
+# rmbg
 A tool for solid color background removal and automatic subject cropping.
 
 # How to use

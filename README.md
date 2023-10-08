@@ -20,3 +20,9 @@ For one single image:
 ./rmbg -i path/to/the/image
 ```
 The image will be output to the same dir.
+
+#Note
+The module sample a 5x5 block on the upper left corner as the background color. To change the tolerance of the color sampleing (default 40), try
+```bash
+./rmbg -i <path> -t < new tolerance value>
+```

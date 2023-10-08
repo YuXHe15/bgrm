@@ -10,16 +10,17 @@ First change the file permission of the executable:
 ```bash
 chmod +x rmbg
 ```
-For images in a folder:
-```
-./rmbg -i path/to/folder
-```
-Images are stored in the folder "output_figs"
-For one single image:
-```bash
-./rmbg -i path/to/the/image
-```
-The image will be output to the same dir.
+* For images in a folder:
+  ```
+  ./rmbg -i path/to/folder
+  ```
+  Images are stored in the folder "output_figs"
+
+* For one single image:
+  ```bash
+  ./rmbg -i path/to/the/image
+  ```
+  The image will be output to the same dir.
 
 # Note
 The module samples color from a 5x5 block on the upper left corner as the background color. To change the tolerance of the color sampleing (default 40), try

@@ -2,7 +2,7 @@
 A tool for solid color background removal and automatic subject cropping.
 
 # How to use
-Move to the dir of bgrm:
+Move to the dir of rmbg:
 ```bash
 cd dist
 ```
